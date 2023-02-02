@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRN-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        crossorigin="anonymous">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/Screenshot (10).png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="sub-heading">
+                <div class="header-text">
+                    <p>FULLSTACK DEVLOPER</p>
+                    <h1>Hi, I'm <span>Smruti</span><br>Ranjan Nayak From Odisha</h1>
+                </div>
+                <img src="image/lizzu.png" alt="lizu" height="600px">
+            </div>
+        </div>
+    </div>
+
+    <!-----------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/DSC_1145.jpg" alt="about-lizu">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quo ipsum dolore non modi hic
+                        corporis enim ea nemo expedita maiores sequi iure accusantium eveniet quasi quod architecto,
+                        nobis magni.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Fullstack Develoment</span><br>Create and manage the client-facing and server
+                                sides of websites and application.</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces.</li>
+                            <li><span>App Development</span><br>Building Android/ios apps.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - current</span><br>Senior Developer working with React</li>
+                            <li><span>2019 - 2022</span><br>Juniour java Developer working with SpringBoot</li>
+                            <li><span>2018 - 2019</span><br>Internship in java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017-2021</span><br>B.Tech in CSE from Raajdhani Engineering college. BBSR</li>
+                            <li><span>2015-2017</span><br>CHSE from Hi-tech college</li>
+                            <li><span>2012-2015</span><br>10th from school</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Fullstack</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero ad optio deleniti ipsa
+                        quam ex amet magnam id fugit. Cumque eius minima consequatur amet fuga dignissimos aut,
+                        doloremque atque.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero ad optio deleniti ipsa
+                        quam ex amet magnam id fugit. Cumque eius minima consequatur amet fuga dignissimos aut,
+                        doloremque atque.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero ad optio deleniti ipsa
+                        quam ex amet magnam id fugit. Cumque eius minima consequatur amet fuga dignissimos aut,
+                        doloremque atque.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------Project--------------->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/gate1.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam dignissimos, architecto
+                            numquam eaque officiis dolorem provident a dolorum ipsa optio quisquam explicabo
+                            consequuntur ex dolor voluptates?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/gate2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam dignissimos, architecto
+                            numquam eaque officiis dolorem provident, dolorum ipsa optio quisquam explicabo consequuntur
+                            ex dolor voluptates?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/gate3.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam dignissimos, architecto
+                            numquam eaque officiis dolorem provident ab quasi, dolorum ipsa optio quisquam explicabo
+                            consequuntur ex dolor voluptates?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!----------contact--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@sample.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/Lizucv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+<!---------footere----------->
+<div class="copyright">
+     <p>copyright @ Smruti Ranjan Nayak <i class="fa-solid fa-heart"></i></p>
+</div>
+    
+
+
+</body>
+
+</html>
